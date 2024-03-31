@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    max-width: 1512px;
+    width: 100%;
+    border: 2px solid black;
+    margin: auto;
+}
+.container_1{
+    width: 1512px;
+    height: 588px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U0pPaOMWXR-t72pP3ftgjHJXWtponYsJrenQMv37s4za-g12WmsVx462srUk-VxD8hYPdllQsMQNwL-5l8gdFfYKkIJN8BXmdRgw8sC~WGGVDhLa-lNqS8gu5wSL9JuBwqlowKRSop5T2-52ouVY7JKQwn60O4ep5ui~Iwzp9oJ9RqAzvCuuSuyaB9WnIVauKab6Wn6She-aR7YM2yGgsdsxI8ew~dKEJTQOlfr1fXJkbEoxsk7F9CTgzobgvxEoOSL-yNdvL7Z8p83kFFDPgMbY4MeP7q6Sq4jetVcjVMyYai6AARWuygeEWX~wAc5j5S9NKUYyLcR1Jlf0Mw4t5w__);
+    background-size: cover;
+    background-position: center;
+}
+.hedder_1{
+    margin: 0 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h_div1{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+
+.h_div1 > img{
+    width: 106px;
+    height: 125px;
+
+} 
+.h_div1 > p{
+    font-family: ZCOOL KuaiLe;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+
+} 
+.h_div2{
+    width: 583px;
+    height: 52px;
+    top: 40px;
+    left: -103px;
+    padding: 16px 24px 16px 24px;
+    gap: 24px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.h_div2 > a{
+    text-decoration: none;
+    color: white;
+    font-family: ZCOOL KuaiLe;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+}
+.h_div2 span img{
+    width: 10%;
+    margin-left: 10px;
+}
+.h_div2 .last_coming_soon{
+    width: 160px;
+}
+.h_div3{
+    background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+    width: 127px;
+    height: 38px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 15.44px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.h_div3 a{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.title_1 {
+    width: 1262px;
+    height: 108px;
+    margin: auto;
+    margin-top: 178px;
+
+}
+.title_1 > p{
+    color: rgba(251, 246, 246, 1);
+    font-family: Shojumaru;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 53.55px;
+    text-align: center;
+}
+
+/* page 2=============================================== */
+.container_2{
+    width: 1512px;
+    height: 588px;
+    margin: auto;
+    background: rgba(25, 24, 24, 1);
+    display: flex;
+}
+.left_1{
+    width: 795px;
+    height: 450px;
+    margin-top: 89px;
+}
+.left_1_div{
+    margin-left: 166px;
+}
+.left_1_button{
+    width: 178.94px;
+    height: 54.06px;
+    border-radius: 21.92px;
+    background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -45px;
+}
+.left_1_button a{
+    font-family: ZCOOL KuaiLe;
+    font-size: 20.03px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+/* .left_1_button a span img{
+
+} */
+.left_1 h1{
+    width: 389px;
+    height: 52px;
+    font-family: Shojumaru;
+    font-size: 44px;
+    font-weight: 400;
+    color: rgba(237, 1, 55, 1);
+
+}
+.left_1 p{
+    width: 587px;
+    height: 207px;
+    font-family: ZCOOL KuaiLe;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.right_1{
+    width: 795px;
+    height: 588px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.right_1 img{
+    width: 90%;
+}
+
+/* page----3 ========================================= */
+.container_3{
+    width: 1512px;
+    height: 716px;
+    border: 1px solid black;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url(https://s3-alpha-sig.figma.com/img/7fb8/c9c7/2e63edc105c3925cfa651946f437c2fd?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pAGxyyrb1oJ0D8VmYEwIuaaJ7VDqdALNGT4PGHE0nVODxcf57LqgD-n5qAfVJ2OuyUQDu7NZyXXx-0Q5Z0cra055u1FKDKhM3p72i9D2pw3~jEGZX31MPbmdipH~YJC5gIHmswbiLpkV2sgldRN4E7sgdK5kACSJBTzjfOVMzCJINoKFeA1~YBbrJJlAa3aVPi1NxjU1JfdvF1jON1RaCM4A-0wCOXBnOuj75vIwp9BsN6GINmM4on0C2aKUJ1R60BOd7hasaciyTeW0HLP5pYkWZ6c1n2Aaej4oPaeNBbsW6SC5Rhps1huvml3FD3PRYTDw1rnSNdBwpyWSyzu79Q__);
+    background-size: cover;
+    background-color: rgb(119, 119, 119);
+    background-position: center;
+
+}
+.three_title{
+    display: flex;
+    justify-content: center;
+}
+.three_title h2{
+    width: 282px;
+    height: 52px;
+    font-family: Shojumaru;
+    font-size: 44px;
+    font-weight: 400;
+    color: rgba(237, 1, 55, 1);
+}
+.three_box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 66px;  
+    width: 1159.1px;
+    height: 349px;
+    margin: auto;
+    margin-top: 112px;
+}
+.three_box > div{
+border: 1px solid red;
+    width: 237.06px;
+    height: 349px;
+    border-radius: 13.17px;
+
+}
+.three_box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 13.17px;
+}
+
+
+/* page==============================4 */
+
+.container_4{
+    width: 1512px;
+    height: 800px;
+    border: 1px solid black;
+    margin: auto;
+    border: 2px solid black;
+    background: rgba(25, 24, 24, 1);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    gap: 94px; 
+}
+.container_4 .left_4{
+    width: 503px;
+    height: 503px;
+}
+.left_4 img{
+    width: 100%;
+}
+.right_4{
+    width: 503px;
+    height: 503px;
+    border: 1px solid black;
+    margin-top: -100px;
+
+}
+.right_4 h1{
+    width: 119px;
+    height: 52px;
+    font-family: Shojumaru;
+    font-size: 44px;
+    font-weight: 400;
+    color: rgba(237, 1, 55, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
